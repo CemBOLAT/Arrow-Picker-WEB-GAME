@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"> 
+        <div class="page" id="entrence-page">
+            <div id="upper-part-entrence">
+                <div id="title">Arrow Picker</div>
+            </div>
+            <div id="lower-part-entrence">
+                <div id="high-score-display">HighScore: <span id="high-score-entrence">0</span></div>
+                <div id="information">Press <span id="space-display">SPACE</span> to start the game</div>
+            </div>
+            <div id="warning"><q>Game finishes with first <span id="misclick">misclick</span></q></div>
+        </div>
+        <div class="page" id="game-page">
+            <div id="scoreHolder">HighScore: <span id="high-score-game">0</span></div>
+            <div id="game-box">
+                <div id="upper-game-box">
+                    <div id="up-btn" class="btn"></div>
+                </div>
+                <div id="middle-game-box">
+                    <div id="left-btn" class="btn"></div>
+                    <div id="informationBox">ENTER</div>
+                    <div id="right-btn" class="btn"></div>
+                </div>
+                <div id="lower-game-box">
+                    <div id="back-btn" class="btn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
